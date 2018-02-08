@@ -15,3 +15,6 @@ def my_abs(x):
     else:
         return -x
 print(my_abs(-10))
+
+def nop():
+    pass
