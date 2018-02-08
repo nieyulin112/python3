@@ -8,3 +8,10 @@ print(int('123'))
 print(str(123))
 # float函数
 print(float('12'))
+
+def my_abs(x):
+    if x >= 0:
+        return x
+    else:
+        return -x
+print(my_abs(-10))
